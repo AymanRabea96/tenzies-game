@@ -1,0 +1,94 @@
+/* app component styles */
+body {
+  background-color: rgba(11, 36, 52, 1);
+  font-family: 'Karla', sans-serif;
+}
+
+.main {
+  background-color: rgba(245, 245, 245, 1);
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Die component styles */
+.title {
+  font-size: 25.6px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2B283A;
+}
+
+.title h1 {
+  margin-bottom: -20px;
+}
+
+p {
+
+  width: 70%;
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #4A4E74;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.die {
+  margin: 0 auto;
+  box-shadow: 0px 3.57447px 3.57447px rgba(0, 0, 0, 0.1);
+  border-radius: 5.95745px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.die-num {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 37px;
+  color: #2B283A;
+
+}
+
+.roll {
+  text-align: center;
+  padding-bottom: 1.1rem;
+}
+
+.roll button {
+  cursor: pointer;
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  color: white;
+  padding: 0.7rem 2.5rem;
+  border: none;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.roll button:focus {
+  outline: none;
+}
+
+.roll button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
